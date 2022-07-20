@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+}
+
+button:checked {
+    background-color: #4D5B9E;
+}
+
+.app-container {
+    min-height: 100vh;
+    position: relative;
+    background-color: #F5F7FB;
+}
+
+.background-blob-1 img {
+    position: absolute;
+    right: 0;
+}
+
+.background-blob-2 img {
+    position: absolute;
+    left: 0;
+    bottom: 0%;
+}
+
+.start-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.start-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+}
+
+.start-button {
+    margin-top: 20px;
+    background-color: #4D5B9E;
+    color: #fff;
+    border-radius: 15px;
+    border: none;
+    font-family: 'Karla', sans-serif;
+    width: 180px;
+    height: 40px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.start-button:hover {
+    background-color: #a0adee;
+}
+
+.questionnaire-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5vw 0;
+    color: #293264;
+}
+
+.question-container {
+    margin-bottom: 30px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid #DBDEF0;
+}
+
+.question {
+    max-width: 700px;
+    text-align: center;
+}
+
+.set-of-options {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.option {
+    padding: 0 6px;
+    max-width: 200px;
+    border: 1px solid #4D5B9E;
+    border-radius: 10px;
+    font-family: 'Karla', sans-serif;
+    background-color: transparent;
+    font-size: 1em;
+    cursor: pointer;
+    transition: 0.2s;
+    color: #4D5B9E;
+}
+
+.option:hover {
+    background-color: #bfc8f1;
+    color: #fff;
+    border: none;
+}
+
+.-selected {
+    padding: 0 6px;
+    max-width: 200px;
+    border: 1px solid #4D5B9E;
+    border-radius: 10px;
+    font-family: 'Karla', sans-serif;
+    background-color: #4D5B9E;
+    font-size: 1em;
+    cursor: pointer;
+    transition: 0.2s;
+    color: #fff;
+}
+
+.check-button {
+    margin-top: 20px;
+    background-color: #4D5B9E;
+    color: #fff;
+    border-radius: 15px;
+    border: none;
+    font-family: 'Karla', sans-serif;
+    width: 180px;
+    height: 40px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.check-button:hover {
+    background-color: #a0adee;
+}
+
+.check-and-score-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.score {
+    padding-top: 15px;
+}
